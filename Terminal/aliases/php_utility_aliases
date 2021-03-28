@@ -1,0 +1,1 @@
+alias cs-fix="~/.config/composer/vendor/bin/php-cs-fixer fix --rules @PSR2 --format txt"

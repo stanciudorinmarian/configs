@@ -1,0 +1,16 @@
+alias gb="git branch"
+alias gs="git status"
+alias gc="git checkout"
+
+alias gaa="git add ."
+alias gbsd="gb -d"
+alias gbfd="gb -D"
+alias gcnb="gc -b"
+
+alias gcm="gc master"
+alias gcd="gc dev"
+alias gcn="gc next"
+
+alias gpm="git pull origin master"
+alias gpd="git pull origin dev"
+alias gpn="git pull origin next"

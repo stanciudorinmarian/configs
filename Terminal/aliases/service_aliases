@@ -1,0 +1,27 @@
+# Network Manager
+alias nm-status="sudo systemctl status NetworkManager"
+alias nm-start="sudo systemctl start NetworkManager"
+alias nm-stop="sudo systemctl stop NetworkManager"
+alias nm-restart="sudo systemctl restart NetworkManager"
+
+# DNS Masq
+alias dnsmasq-status="sudo systemctl status dnsmasq"
+alias dnsmasq-start="sudo systemctl start dnsmasq"
+alias dnsmasq-stop="sudo systemctl stop dnsmasq"
+alias dnsmasq-restart="sudo systemctl restart dnsmasq"
+
+# NGINX
+alias nginx-status="sudo systemctl status nginx"
+alias nginx-start="sudo systemctl start nginx"
+alias nginx-stop="sudo systemctl stop nginx"
+alias nginx-restart="sudo systemctl restart nginx"
+alias nginx-conf="sudo vim /etc/nginx/nginx.conf"
+
+# Redis
+alias redis-status="sudo systemctl status redis-server"
+alias redis-start="sudo systemctl start redis-server"
+alias redis-stop="sudo systemctl stop redis-server"
+alias redis-restart="sudo systemctl restart redis-server"
+alias redis-conf="sudo vim /etc/redis/redis.conf"
+
+

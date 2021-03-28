@@ -1,0 +1,14 @@
+# Docker Service
+alias docker-status="sudo systemctl status docker"
+alias docker-start="sudo systemctl start docker"
+alias docker-stop="sudo systemctl stop docker"
+alias docker-restart="sudo systemctl restart docker"
+
+# Docker Compose
+alias dc-ps="docker-compose ps"
+alias dc-up="docker-compose up -d"
+alias dc-down="docker-compose down"
+alias dc-hard-restart="dc-down && dc-up"
+alias dc-start="docker-compose start"
+alias dc-stop="docker-compose stop"
+alias dc-soft-restart="docker-compose restart"

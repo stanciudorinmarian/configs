@@ -1,0 +1,7 @@
+# utilities
+alias rae="sudo rm -rfv"
+alias rae-gitignore="sudo rm -rfv !('.gitignore')"
+alias ll="ls -la"
+
+# scripts
+alias config-dnsmasq="cd ~ && cd Utilities/Scripts && sudo ./config-dnsmasq.sh"
