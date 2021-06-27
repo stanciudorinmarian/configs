@@ -101,8 +101,8 @@ alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo
 # ~/.bash_aliases, instead of adding them here directly.
 # See /usr/share/doc/bash-doc/examples in the bash-doc package.
 
-if [ -d ~/.bash_aliases ]; then
-    for file in ~/.bash_aliases/*
+if [ -d ~/.aliases ]; then
+    for file in ~/.aliases/*
     do
         . $file;
     done

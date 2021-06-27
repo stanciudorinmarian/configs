@@ -112,8 +112,8 @@ export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || pr
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
 
 # Bash Aliases
-if [ -d ~/.bash_aliases ]; then
-    for file in ~/.bash_aliases/*
+if [ -d ~/.aliases ]; then
+    for file in ~/.aliases/*
     do
         . $file;
     done
